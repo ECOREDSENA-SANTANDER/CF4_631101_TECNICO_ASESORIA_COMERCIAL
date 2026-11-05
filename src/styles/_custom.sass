@@ -108,7 +108,13 @@ figcaption
   background-color: #B5F0FF
 .text-izq
   text-align: left !important
-
+.tarjeta--boton 
+  border-radius: 20px
+  background-color: #B5F0FF
+.tarjeta--boton.color-primario:active, .tarjeta--boton.color-primario:focus, .tarjeta--boton.color-primario:hover
+  background-color: #FBF7CD
+  h4, p
+    color: #12263F
 .tarjeta.color-primario * 
   color: #12263F
 .tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
@@ -116,6 +122,17 @@ figcaption
   font-style: normal !important
 .tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range] 
   background: #EAEDF8
+.acordion__accion__btn--a 
+  background-color: #FFD633 !important
+.acordion .tarjeta--azul
+  background-color: #AEA3BE !important
+  .acordion__titulo h3
+    color: #12263F !important
+  &.acordion__activo
+    .acordion__titulo h3
+      color: #000 !important
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #ECFBFF !important
 
 /**************************************************************/
 /*Media Queries*/  
@@ -195,6 +212,18 @@ figcaption
     background-size: cover 
 .fondo02
   background-image: url('../assets/curso/temas/t1/fondo.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.fondo03
+  background-image: url('../assets/curso/temas/t4/fondo.png')
   background-position: center
   background-size: 100% 100%
   background-repeat: no-repeat
