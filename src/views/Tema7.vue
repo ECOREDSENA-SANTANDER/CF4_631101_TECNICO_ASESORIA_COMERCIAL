@@ -71,7 +71,7 @@
                 td Plataformas de almacenamiento y colaboración
                 td Guardar, compartir y editar archivos de manera coordinada.
                 td Revisión y actualización de documentos comerciales.
-      .col-lg-4.col-9
+      .col-lg-4.col-9.col-md-7
         figure
           img(src='@/assets/curso/temas/t7/img03.png', alt='' style="width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 15px;")
 
@@ -119,7 +119,7 @@
                 td Almacenamiento y colaboración
                 td Facilitan guardar archivos, compartir documentos y gestionar versiones o permisos de acceso.
                 td OneDrive, Google Drive y SharePoint.
-      .col-lg-4.col-9
+      .col-lg-4.col-9.col-md-7
         figure
           img(src='@/assets/curso/temas/t7/img04.png', alt='' style="width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 15px;")
 
@@ -127,7 +127,7 @@
 
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t7/ico.svg', alt='')
-      h3.mb-0.mx-3 Aplicación de las herramientas ofimáticas en una propuesta comercial
+      h3.mb-1.mx-3 Aplicación de las herramientas ofimáticas en una propuesta comercial
 
     p Para elaborar una propuesta de suministro de computadores, el asesor puede desarrollar el siguiente procedimiento:
 
@@ -136,33 +136,33 @@
         .col-lg-4.mb-3.p-4.col-10.d-none.d-lg-block
           img(src='@/assets/curso/temas/t7/img05.svg', alt='')
         .col-lg-8
-          SlyderF(columnas="col-lg-6 col-xl-4")
+          SlyderF(columnas="col-lg-6 col-xl-4 ")
             .tarjeta.bg3.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-8.col-md-4.col-lg-8
                   img(src='@/assets/curso/temas/t7/1.svg' alt='')
               p.text-center.mb-0 Utilizar Excel o Hojas de cálculo de Google para organizar las referencias, cantidades, precios unitarios, descuentos y valores totales.
             .tarjeta.bg3.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-8.col-md-4.col-lg-8
                   img(src='@/assets/curso/temas/t7/2.svg' alt='')
               p.text-center Emplear Word o Documentos de Google para estructurar la propuesta, describir los equipos, explicar sus beneficios y establecer las condiciones comerciales.
 
             .tarjeta.bg3.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-8.col-md-4.col-lg-8
                   img(src='@/assets/curso/temas/t7/3.svg' alt='')
               p.text-center Preparar una presentación mediante PowerPoint o Presentaciones de Google para sustentar la oferta ante el cliente.
 
             .tarjeta.bg3.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-8.col-md-4.col-lg-8
                   img(src='@/assets/curso/temas/t7/4.svg' alt='')
               p.text-center Almacenar los documentos en OneDrive o Google Drive, aplicando los permisos de acceso correspondientes.
 
             .tarjeta.bg3.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-8.col-md-4.col-lg-8
                   img(src='@/assets/curso/temas/t7/5.svg' alt='')
               p.text-center Compartir la propuesta mediante correo electrónico y, cuando sea necesario, programar una reunión virtual para resolver inquietudes.
     p Este procedimiento permite integrar diferentes herramientas y mantener organizada la información durante las etapas de elaboración, presentación y seguimiento de la propuesta.
@@ -213,7 +213,7 @@
       .col-lg-12 
         figcaption  caption Nota. La aplicación de estas prácticas contribuye a reducir errores, optimizar los procesos de trabajo y fortalecer la imagen profesional de la empresa.
 
-
+    
 
 
 
