@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Aplicación de la propuesta comercial y negociación con el cliente',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> fortalecer la apropiación de los conocimientos relacionados con la formulación de propuestas comerciales, la gestión del portafolio y el proceso de negociación con el cliente.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,477 +30,682 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'Una empresa desea presentar una propuesta comercial ajustada a un cliente específico. ¿Qué información debe priorizar antes de estructurarla?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Las necesidades, expectativas y características del cliente.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'El número de empleados de la empresa.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'La ubicación de todos los proveedores.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'El historial contable de la competencia.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué elemento fortalece la propuesta de valor de un producto o servicio frente a otras alternativas del mercado?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'La cantidad de documentos internos.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+                'Los beneficios diferenciales que responden a necesidades del cliente.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'El tamaño de la bodega de almacenamiento.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'La antigüedad de los equipos de producción.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+        },
+        {
+          id: 3,
+          texto:
+            'Al describir un producto dentro de una propuesta comercial, ¿qué aspecto facilita que el cliente comprenda su utilidad?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Las funciones y beneficios asociados a sus necesidades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La cantidad de reuniones del equipo comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los procedimientos administrativos internos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La estructura jerárquica de la empresa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál es el propósito del empaque dentro de la presentación comercial de un producto?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Reemplazar la estrategia de servicio al cliente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Proteger el producto y contribuir a su presentación.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Definir las condiciones de negociación.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Determinar el número de vendedores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué información de la etiqueta contribuye a una decisión de compra informada?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Datos relevantes sobre características, uso o condiciones del producto.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Información exclusiva sobre la nómina de la empresa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'La distribución de cargos administrativos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'El cronograma interno del área comercial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Una empresa ofrece instalación y soporte posterior a la compra. ¿A qué nivel del producto corresponden principalmente estos beneficios?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Producto básico.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Producto aumentado.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Producto genérico.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Producto no comercial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué acción contribuye a mantener la calidad percibida de un producto o servicio?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto:
+                'Cumplir de manera consistente las condiciones y beneficios ofrecidos.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Modificar las características sin informar al cliente.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Reducir la atención posterior a la venta.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Eliminar los mecanismos de seguimiento.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Ante una solicitud de información de un cliente, ¿qué práctica fortalece el servicio al cliente?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Responder con claridad, oportunidad y orientación pertinente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Remitir siempre la consulta sin revisarla.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Priorizar únicamente las solicitudes internas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Evitar registrar las necesidades expresadas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué resultado puede generar una adecuada gestión del servicio al cliente?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Mayor satisfacción y fortalecimiento de la relación comercial.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Eliminación automática de la competencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducción obligatoria del portafolio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustitución de la propuesta comercial.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Una empresa incorpora nuevas referencias para atender diferentes segmentos. ¿Qué aspecto del surtido está fortaleciendo?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'La variedad de opciones disponibles para los clientes.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La estructura salarial del área comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El número de procesos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La ubicación física de los proveedores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué criterio resulta pertinente para organizar productos en categorías dentro de un surtido?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Características, usos o necesidades que atienden.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Antigüedad de los vendedores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Número de reuniones comerciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Orden alfabético de los proveedores únicamente.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Si una línea de productos incorpora más referencias dentro de la misma categoría, ¿qué dimensión del surtido aumenta?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Profundidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Ubicación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Rotación administrativa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cobertura institucional.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Qué decisión favorece la gestión eficiente del portafolio de productos?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Mantener referencias alineadas con las necesidades y demanda de los clientes.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Conservar todos los productos sin analizar su desempeño.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar información sobre preferencias de compra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Definir el surtido sin considerar el mercado.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Antes de iniciar una negociación comercial, ¿qué acción permite una mejor preparación?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Definir objetivos, información relevante y posibles alternativas.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Improvisar las condiciones durante la reunión.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar establecer límites de negociación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Presentar la oferta sin conocer al cliente.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            'Durante una negociación, el cliente plantea una objeción sobre el precio. ¿Cuál es una respuesta comercial adecuada?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Explicar el valor y los beneficios de la oferta con argumentos pertinentes.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Finalizar inmediatamente la conversación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ignorar la objeción y cambiar de tema.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Modificar todas las condiciones sin analizarlas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué práctica facilita la construcción de acuerdos en una negociación?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Identificar intereses de las partes y explorar alternativas de beneficio mutuo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Mantener una posición rígida en todos los aspectos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar formular preguntas durante el proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ocultar las condiciones esenciales de la propuesta.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+        },
+        {
+          id: 17,
+          texto:
+            'Al cerrar una negociación, ¿qué acción contribuye a evitar interpretaciones diferentes entre las partes?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Precisar y registrar los acuerdos, compromisos y condiciones definidas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Dejar pendientes los aspectos esenciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Modificar verbalmente lo acordado después del cierre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar confirmar fechas y responsabilidades.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué recurso ofimático es más apropiado para estructurar una propuesta comercial con texto, tablas e información organizada?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un procesador de texto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Un reproductor multimedia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Una herramienta de diagnóstico de red.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un sistema operativo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Para qué puede utilizarse una hoja de cálculo al preparar una propuesta comercial?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Organizar cálculos de precios, descuentos y condiciones económicas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir el contacto con el cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Fabricar físicamente el producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Realizar el transporte de mercancías.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué característica debe tener la presentación de una propuesta comercial para facilitar su socialización con el cliente?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Información clara, organizada y coherente con las necesidades identificadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Contenido extenso sin jerarquía ni estructura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Datos técnicos sin relación con la oferta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Información interna que no aporta a la decisión comercial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La respuesta evidencia apropiación de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
+          mensaje_incorrecto:
+            'Se recomienda fortalecer la revisión de los conceptos relacionados con la propuesta comercial de un producto o servicio, la gestión del portafolio y la negociación comercial.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y evidencia apropiación de los conceptos relacionados con la propuesta comercial, la gestión del portafolio y la negociación comercial.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Se recomienda revisar nuevamente el componente formativo Propuesta comercial de un producto o servicio e intentar la actividad didáctica.s',
     },
   }),
 }
