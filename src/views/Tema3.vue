@@ -321,7 +321,7 @@
     #t_3_5.titulo-segundo.mb-4
       h2 3.5  El lineal
 
-    p El lineal es el espacio destinado a la exposición de productos dentro de un establecimiento comercial, especialmente en aquellos que utilizan sistemas de autoservicio. Constituye un elemento fundamental del merchandising, porque permite organizar la mercancía, facilitar su acceso y aprovechar el espacio disponible.
+    p El lineal es el espacio destinado a la exposición de productos dentro de un establecimiento comercial, especialmente en aquellos que utilizan sistemas de autoservicio. Constituye un elemento fundamental del #[em merchandising], porque permite organizar la mercancía, facilitar su acceso y aprovechar el espacio disponible.
 
     .bloque-texto-g.bloque-texto-g--inverso.bg4.p-3.p-sm-4.p-md-5.mb-4(data-aos='fade-right')
       .bloque-texto-g__img(
