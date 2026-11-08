@@ -300,7 +300,7 @@
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.p-4.h-100
           .row.justify-content-center.mb-0
-            .col-7.col-lg-5
+            .col-7.col-lg-5.mb-2
               figure
                 img(src='@/assets/curso/temas/t2/01.svg', alt='')
           h4.text-center Primario
@@ -309,7 +309,7 @@
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.p-4.h-100
           .row.justify-content-center.mb-0
-            .col-7.col-lg-5
+            .col-7.col-lg-5.mb-2
               figure
                 img(src='@/assets/curso/temas/t2/02.svg', alt='')
           h4.text-center Secundario
@@ -317,7 +317,7 @@
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.p-4.h-100
           .row.justify-content-center.mb-0
-            .col-7.col-lg-5
+            .col-7.col-lg-5.mb-2
               figure
                 img(src='@/assets/curso/temas/t2/03.svg', alt='')
           h4.text-center Terciario
